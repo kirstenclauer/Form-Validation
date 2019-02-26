@@ -1,0 +1,111 @@
+body {
+	margin: 0px auto;
+        width: 80%;
+	background: #C5C6C7;
+	font-family: helvetica;
+        color: #66FCF1;
+        text-align:center;
+}
+
+#nav{ 
+    margin: 20px;
+    height: 60px;
+    
+    background-color: #0B0C10; 
+    padding: 10px; 
+    text-align: center; 
+    align-content: center; 
+    justify-content: center; 
+}
+
+#feature, #footer {
+	margin: 1%;
+}
+
+#footer{
+	background-color: #0B0C10;
+	padding: 0.5em 0;
+	text-align: center;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#feature{        
+	height: 600px;
+	margin-bottom: 1em;
+	background-color: #1F2833;
+}
+
+/* style the dropdown button */
+.dropbtn {
+	background-color: #0B0C10;
+	color: white;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+}
+/* container of the dropdown content */
+.dropdown {
+	margin: 0px auto;
+        width: 22%;
+    
+	float: left;
+	padding: 10px;
+}
+
+.dropdown-content{
+	display: none;
+	position: fixed;
+	background-color: #45A29E;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+/*links inside dropdown menu */
+.dropdown-content a{
+    color: white;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+}
+/*changes color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #66FCF1;}
+/*show menu on hover */
+.dropdown:hover .dropdown-content{ display: block; }
+/*changes color of dropdown button when the content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #66FCF1;
+}
+
+h1 {   
+	color: #66FCF1;
+	font: helvetica;
+	padding: 30px;
+	letter-spacing: 5px;
+        font-size: 40px;
+        text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+#center {
+    margin: 0px auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    align-content: center; 
+    justify-content: center; 
+}
+
+ table.center {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+  
+  table{
+      color: #45A29E;
+  }
